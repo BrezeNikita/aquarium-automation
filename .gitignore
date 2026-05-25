@@ -1,0 +1,37 @@
+# Qt build files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+Makefile
+Makefile.*
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.stash
+*.cbp
+*.creator*
+*.files
+*.includes
+*.config
+
+# Build folders
+build-*/
+debug/
+release/
+
+# Compiled UI and moc files
+ui_*.h
+moc_*.cpp
+moc_*.h
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
